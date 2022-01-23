@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Index</title>
+    </head>
+
+    <body>
+        <iframe width=200 height=200
+            src="{{ url_for('static', filename=user_image) }}"></iframe>
+
+        <embed width=200 height=200
+            src="{{ url_for('static', filename=user_image) }}"  type="image/tiff"
+            negative=yes>
+        </object>
+    </body>
+</html>
